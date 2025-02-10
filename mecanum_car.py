@@ -176,8 +176,10 @@ def BackLeft(power=100): #default=100
     m1.duty_u16(pw)
     m2.duty_u16(pw)
 
-ssid='UPC26B4DE3'
-password='z4zjxjVhtWa2'
+ssid='' #ENTER YOUR WIFI SSID
+password='' #ENTER YOUR WIFI PASSWORD
+
+
 
 def connect():
     #Connect to WLAN
@@ -190,6 +192,7 @@ def connect():
     ip = wlan.ifconfig()[0]
     print(f'Connected on {ip}')
     return ip
+
     
 def open_socket(ip):
     # Open a socket
