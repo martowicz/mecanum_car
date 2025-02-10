@@ -21,3 +21,5 @@ password='' #ENTER YOUR WIFI PASSWORD
 Upload the code into Pi Pico and run. If connected terminal should return IP address from which you can control the car.
 
 ![Image](./controller_view.png)
+
+![Image](./image.JPEG)
